@@ -26,7 +26,7 @@ normalHeight = maxDwarfism < height < minAcromegaly
 This is a nice feature lifted from Python. Instead of writing out the full comparison like
 
 {% highlight coffeescript %}
-normalHeight = height > maxDwarfism && height < minAcromegaly
+normalHeight = height < maxDwarfism && height > minAcromegaly
 {% endhighlight %}
 
 CoffeeScript allows us to chain the two comparisons together in a form that more closely matches the way a mathematician would write it.
